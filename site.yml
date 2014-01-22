@@ -1,0 +1,6 @@
+- hosts: myhosts
+  user: root
+
+  roles:
+    - {role: myrole, tags: "myrole"}
+
